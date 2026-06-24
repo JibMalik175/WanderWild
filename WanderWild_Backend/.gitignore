@@ -1,0 +1,175 @@
+# -----------------------------
+# General system files
+# -----------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+*.log
+*.tmp
+*.swp
+*.bak
+*.old
+*.lock
+*.pid
+
+# IDE / Editor directories
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific
+desktop.ini
+._*
+.Trashes
+.nfs*
+
+# -----------------------------
+# Environment & secrets
+# -----------------------------
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.key
+*.pem
+*.crt
+*.p12
+config/*.json
+secrets/
+keys/
+
+# -----------------------------
+# Dependency directories
+# -----------------------------
+node_modules/
+jspm_packages/
+bower_components/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+site/
+.mypy_cache/
+.pytest_cache/
+pip-wheel-metadata/
+
+# -----------------------------
+# Build / dist outputs
+# -----------------------------
+build/
+dist/
+out/
+target/
+bin/
+obj/
+*.class
+*.jar
+*.war
+*.ear
+*.dll
+*.exe
+*.so
+*.dylib
+*.db
+*.sqlite3
+coverage/
+htmlcov/
+reports/
+.cache/
+.nyc_output/
+.cucumber/
+logs/
+
+# -----------------------------
+# Temporary / local data
+# -----------------------------
+*.db
+*.sqlite
+*.sqlite3
+*.csv
+*.tsv
+*.bak
+*.tgz
+*.gz
+*.zip
+*.tar
+tmp/
+temp/
+uploads/
+storage/
+data/
+local_data/
+sessions/
+backups/
+__generated__/
+
+# -----------------------------
+# Test / debugging files
+# -----------------------------
+*.cover
+*.lcov
+*.spec.ts
+*.test.js
+*.test.ts
+*.test.py
+
+# -----------------------------
+# Docker / container
+# -----------------------------
+docker-compose.override.yml
+.docker/
+.dockerignore
+*.tar
+*.img
+
+# -----------------------------
+# Framework specific
+# -----------------------------
+
+# Node.js / Express
+.nodemonignore
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.eslintcache
+.next/
+.nuxt/
+.cache-loader/
+.sass-cache/
+
+# Python (Django / Flask / FastAPI)
+db.sqlite3
+instance/
+migrations/
+staticfiles/
+media/
+celerybeat-schedule
+celerybeat.pid
+
+# Java (Spring Boot / Maven / Gradle)
+.mvn/
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+.classpath
+.project
+.settings/
+spring.log
+
+# .NET / C#
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+project.lock.json
+artifacts/
+nuget.exe
+packages/
