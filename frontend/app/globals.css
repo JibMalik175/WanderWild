@@ -447,8 +447,16 @@
 
 /* Utility Classes */
 .container-custom {
-  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  @apply mx-auto px-4 sm:px-6 lg:px-8;
+  max-width: 80rem; /* 1280px on normal screens (unchanged) */
 }
+
+/* Scale content width up on large / high-resolution displays so it doesn't sit
+   in a narrow center strip (prevents the "zoomed-out" look on big monitors). */
+@media (min-width: 1536px) { .container-custom { max-width: 90rem; } }   /* 1440px */
+@media (min-width: 1920px) { .container-custom { max-width: 100rem; } }  /* 1600px */
+@media (min-width: 2560px) { .container-custom { max-width: 120rem; } }  /* 1920px */
+@media (min-width: 3840px) { .container-custom { max-width: 150rem; } }  /* 2400px */
 
 .section-padding {
   @apply py-16 lg:py-24;

@@ -54,7 +54,20 @@ NEXT_PUBLIC_API_URL=http://localhost:5000/api
 
 ## Screenshots
 
-See the [`screenshots/`](screenshots) folder for captures of the implemented pages (home, explore, packages, AI itinerary, chatbot, and the customer/agency/admin dashboards).
+### Home
+![WanderWild home page](docs/home.png)
+
+### AI Travel Assistant (Chatbot)
+![WanderWild AI chatbot](docs/chatbot.png)
+
+### Virtual Reality Experiences
+![Virtual Reality experiences](docs/vr-experiences.png)
+
+### Agency Dashboard
+![Agency dashboard](docs/agency-dashboard.png)
+
+### Manage Packages
+![Manage packages](docs/manage-packages.png)
 
 ## License
 
