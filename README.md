@@ -1,4 +1,4 @@
-# WanderWild 🌿
+# WanderWild 🌿 (Co-Devlopment In Progress)
 
 **Discover Hidden Rural Treasures** — a full-stack travel platform that connects travellers with local rural tourism providers (airlines, tour operators, hotels and homestays), featuring an AI travel assistant, AI itinerary generation and inclusive Virtual Reality experiences.
 
